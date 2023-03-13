@@ -24,7 +24,7 @@
   // Including dev-time dependencies that run in node can result in deploy failures and poor
   // performance.
   "npmPackages": {
-    // This key is the name we'll use to import the package.
+    // Specify npm packages in the same format as you would with package.json
     "web-vitals": "^3.0.4",
   },
 }

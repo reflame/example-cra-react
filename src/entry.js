@@ -14,6 +14,7 @@ import * as reactDom from 'react-dom/client'
 import App from './App.js'
 import reportWebVitals from './reportWebVitals.js'
 
+// CSS imports also work out of the box
 import './global.css';
 
 export const init = () => {

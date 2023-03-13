@@ -14,6 +14,8 @@ import * as reactDom from 'react-dom/client'
 import App from './App.js'
 import reportWebVitals from './reportWebVitals.js'
 
+import './global.css';
+
 export const init = () => {
   reactDom
     .createRoot(document.getElementById('root'))
